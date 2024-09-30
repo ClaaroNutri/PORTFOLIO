@@ -485,6 +485,13 @@ h3:hover, h4:hover{
     .skills, .contacto {
         transform:rotate(30deg)
     }
+    .container-card, .mi{
+      overflow: auto;
+    }
+    .sobre_mi{
+      height: 100%;
+      overflow: auto;
+    }
     .container-card h3{
       padding-top: 25px;
     }
