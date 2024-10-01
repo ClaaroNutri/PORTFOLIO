@@ -22,7 +22,7 @@ const pantallaSobreMi = () => {
         <h3>Soy Claudia</h3>
         <div class="row sobre_mi mt-4">
             <div class="col col-md-5">
-                <p>Soy <strong>Licenciada en Nutrición</strong>, me recibí en la Universidad de Buenos Aires. Cuento con 20 años de experiencia en la atención de pacientes, trabajo que me permitío desarrollar la capacidad de <strong>empatia</strong>, <strong>escucha</strong>, acompañamiento y <strong>resolución de problemas</strong> para el logro de los objetivos de salud de mis consultantes.<br> En los ultimos tiempos comencé a interesarme en la tecnología y descubrí un área que me llenó de curiosidad y deseo de explorar. Mi formación es una combinación entre lo autodidacta y lo formal. Mis estudios incluyen los cursos impartidos por el gobierno de la ciudad de Buenos Aires, bajo la propuesta Codo a Codo. Allí participé y completé <strong>Desarrollo Full Stack NodeJs, Diseñó UX/UI, Big Data y React </strong>. Me interesa particularmente el <strong>desarrolo Front End</strong> y la creación de interfaces atractivas y útiles para una mejor experiencia del usuario.</p>
+                <p>Soy <strong>Licenciada en Nutrición</strong>, me recibí en la Universidad de Buenos Aires. Cuento con 20 años de experiencia en la atención de pacientes, trabajo que me permitío desarrollar la capacidad de <strong>empatia</strong>, <strong>escucha</strong>, acompañamiento y <strong>resolución de problemas</strong> para el logro de los objetivos de salud de mis consultantes.<br> En los ultimos tiempos comencé a interesarme en la tecnología y descubrí un área que me llenó de curiosidad y deseo de explorar. Mi formación es una combinación entre lo autodidacta y lo formal. Mis estudios incluyen los cursos impartidos por el gobierno de la ciudad de Buenos Aires, bajo la propuesta Codo a Codo. Allí participé y completé <strong>Desarrollo Full Stack NodeJs, Diseño UX/UI, Big Data y React </strong>. Me interesa particularmente el <strong>desarrolo Front End</strong> y la creación de interfaces atractivas y útiles para una mejor experiencia del usuario.</p>
             </div>
             <div class="col col-md-5 foto">
             <div class="profile-container">
@@ -72,6 +72,7 @@ const pantallaSkill = () => {
     <img src="./img/firebase-logo-72.png" class="skill">
     <img src="./img/react-logo-72.png" class="skill">
     <img src="./img/postgresql-logo-72.png" class="skill">
+    <img src="./img/figma-logo-72.png" class="skill">
     <img src="./img/html5-logo-72.png" class="skill">
     <img src="./img/css3-logo-72.png" class="skill">
     <img src="./img/javascript-logo-72.png" class="skill">
@@ -81,6 +82,14 @@ const pantallaSkill = () => {
     <img src="./img/firebase-logo-72.png" class="skill">
     <img src="./img/react-logo-72.png" class="skill">
     <img src="./img/postgresql-logo-72.png" class="skill">
+    <img src="./img/figma-logo-72.png" class="skill">
+    </div>
+    </div>
+    <div class="skill-wrapper mt-4">
+    <div class="skill-item">
+    <p>HTML - CSS - JAVASCRIPT - BOOTSTRAP - NODEJS - GITHUB - FIREBASE - REACT - SQL - FIGMA </p>
+    <p>HTML - CSS - JAVASCRIPT - BOOTSTRAP - NODEJS - GITHUB - FIREBASE - REACT - SQL - FIGMA </p>
+    <p>HTML - CSS - JAVASCRIPT - BOOTSTRAP - NODEJS - GITHUB - FIREBASE - REACT - SQL - FIGMA -</p>
     </div>
     </div>
     </div>
