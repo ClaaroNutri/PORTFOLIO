@@ -22,7 +22,7 @@ const pantallaSobreMi = () => {
         <h3>Soy Claudia</h3>
         <div class="row sobre_mi mt-4">
             <div class="col col-md-5">
-                <p>Soy <strong>Licenciada en Nutrición</strong>, me recibí en la Universidad de Buenos Aires. Cuento con 20 años de experiencia en la atención de pacientes, trabajo que me permitío desarrollar la capacidad de <strong>empatia</strong>, <strong>escucha</strong>, acompañamiento y <strong>resolución de problemas</strong> para el logro de los objetivos de salud de mis consultantes.<br> En los ultimos tiempos comencé a interesarme en la tecnología y descubrí un área que me llenó de curiosidad y deseo de explorar. Mi formación es una combinación entre lo autodidacta y lo formal. Mis estudios incluyen los cursos impartidos por el gobierno de la ciudad de Buenos Aires, bajo la propuesta Codo a Codo. Allí participé y completé <strong>Desarrollo Full Stack NodeJs, Diseño UX/UI, Big Data y React </strong>. Me interesa particularmente el <strong>desarrolo Front End</strong> y la creación de interfaces atractivas y útiles para una mejor experiencia del usuario.</p>
+              <p>Soy <strong>Licenciada en Nutrición</strong>, me recibí en la Universidad de Buenos Aires. Cuento con 20 años de experiencia en la atención de pacientes, trabajo que me permitío desarrollar la capacidad de <strong>empatia</strong>, <strong>escucha</strong>, acompañamiento y <strong>resolución de problemas</strong> para el logro de los objetivos de salud de mis consultantes.<br> En los ultimos tiempos comencé a interesarme en la tecnología y descubrí un área que me llenó de curiosidad y deseo de explorar. Mi formación es una combinación entre lo autodidacta y lo formal. Mis estudios incluyen los cursos impartidos por el gobierno de la ciudad de Buenos Aires, bajo la propuesta Codo a Codo. Allí participé y completé <strong>Desarrollo Full Stack NodeJs, Diseño UX/UI, Big Data y React </strong>. Me interesa particularmente el <strong>desarrolo Front End</strong> y la creación de interfaces atractivas y útiles para una mejor experiencia del usuario.</p>
             </div>
             <div class="col col-md-5 foto">
             <div class="profile-container">
@@ -35,8 +35,9 @@ const pantallaSobreMi = () => {
                   <h4>Claudia Andrea Aronno</h4>
                    <h6>Desarrolladora Front-End</h6>
                  </div>
-                 </div>
-                 </div>
+                </div>
+              </div>
+            </div>
             </div>
         </div>
     </div>
@@ -133,6 +134,7 @@ let contacto = document.querySelector(".contacto");
 const pantallaContacto = () => {
   let div1 = document.createElement("div");
   div1.innerHTML = `
+    <div class="pag-contacto">
     <form action="https://formsubmit.co/claudiaronno@gmail.com" method="POST">
     <h3>Completa el Formulario y me comunico con vos</h3>
     <div class="form-group  col-md-4">
@@ -149,6 +151,10 @@ const pantallaContacto = () => {
   </div>
     <button type="submit" class="btn btn-contacto mt-4">Submit</button>
   </form>
+  <div class="what">
+  <a href="https://wa.me/5491150407050" target="_blank"><img src="./img/whatsapp-48.png"></a>
+  </div>
+  </div>
     `;
   capaProyecto.appendChild(div1);
 };
